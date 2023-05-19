@@ -79,35 +79,10 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
 
-    <!-- TOP NAV -->
-    <div class="top-nav" id="home">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-auto">
-                    <p> <i class='bx bxs-envelope'></i> info@digitalimpact.com</p>
-                    <p> <i class='bx bxs-phone-call'></i> +229 52525231</p>
-                </div>
-                <div class="col-auto social-icons">
-                    <a href="#home""><i class='bx bxl-facebook'></i></a>
-                    <a href="#home""><i class='bx bxl-twitter'></i></a>
-                    <a href="#home""><i class='bx bxl-instagram'></i></a>
-                    <a href="#home""><i class='bx bxl-linkedin'></i></a>
-                    <!-- <a href="#"><i class='bx bxl-pinterest'></i></a> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- BOTTOM NAV -->
-    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+ <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/log.png"
             alt="" style="height:4cm;width: 4cm; position:absolute;top:-.8cm;left:10px;"></a>
-            <!-- <button class="navbar-toggler" style="background-color: #3a3a85; color: #ea5b0c;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-
             <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" style="color: #ea5b0c;"></span>
@@ -128,14 +103,38 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">A Propos</a>
                     </li>
-                    
+                                
+                   <div class="dropdown">
+                    <a class="dropdown-toggle btn btn-brand" href="#" role="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                    <div class="dropdown-content" aria-labelledby="dropdownMenuButton">
+                        <li>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            class="nav-link">Contactez-Nous</a>
+                       </li>
+                        <div class="col-auto">
+                            <p style="font-weight: bold;background-color:;"><i class="fas fa-envelope"></i> info@digitalimpact.com</p>
+                            <p style="font-weight: bold;background-color:;"><i class="fas fa-phone" ></i> +229 52525231</p>
+                        </div>
+                    </div>
+                </div>
+
                 </ul>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    class="btn btn-brand ms-lg-3">Contactez-Nous</a>
+                    <div class="">
+                        <div class="row justify-content-between">
+                            <div class="col-auto social-icons">
+                                <a href="#home""><i class='bx bxl-facebook'></i></a>
+                                <a href="#home""><i class='bx bxl-twitter'></i></a>
+                                <a href="#home""><i class='bx bxl-instagram'></i></a>
+                                <a href="#home""><i class='bx bxl-linkedin'></i></a>
+                                <!-- <a href="#"><i class='bx bxl-pinterest'></i></a> -->
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </nav>
-
     <!-- SLIDER -->
     <div class="owl-carousel owl-theme hero-slider">
         <div class="slide slide1">
